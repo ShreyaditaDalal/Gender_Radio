@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Option</title>
+    <script>
+        function Female(){
+            f =(f1.tb1.value)
+            document.getElementById('tb3').value=f; 
+        }
+        function Male(){
+            m =(f1.tb2.value)
+            document.getElementById('tb3').value=m;  
+        }
+    </script>
+</head>
+<body>
+    <h1> Select your gender:</h1>
+    <form id="f1">
+        <input type="radio" value="Female" id="tb1" onclick="Female()" name="gender" > Female
+        <input type="radio" value="Male" id="tb2" onclick="Male()" name="gender" > Male
+        <input type="text" id="tb3"> 
+    </form>
+</body>
+</html> 
